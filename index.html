@@ -13,7 +13,7 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+    
     <!-- Theme CSS -->
     <link href="css/freelancer.min.css" rel="stylesheet">
 
@@ -21,7 +21,10 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
+    
+        <!-- Shopify Javascript -->
+    <script src="js/shopify.js"></script>
+    
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -65,7 +68,7 @@
                     <li class="page-scroll">
                         <a href="#preguntas">Preguntas</a>
                     </li>
-                           <li class="page-scroll">
+                    <li class="page-scroll">
                         <a href="#contact">Contacto</a>
                     </li>
                 </ul>
@@ -114,29 +117,23 @@
             
             <div class="row">
                  <div class="col-sm-4 portfolio-item">
-                        <img src="img/grumpy.png" class="img-responsive" alt="">
-                        <h3 class="">Paso 1</h3>
-                        <p>Escoge tus productos y agregalos al carrito</p>
-                        <a href="#" class="" data-toggle="modal">
-                      
-                    </a>
+                        <img src="img/grumpy.png" class="img-responsive maginauto" alt="">
+                        <h3 class="text-center">Paso 1</h3>
+                        <p class="text-center">Escoge tus productos y agregalos al carrito</p>
+                   
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                        <img src="img/grumpy3.png" class="img-responsive" alt="">
-                        <h3 class="">Paso 2</h3>
-                        <p>Escoge la forma de pago que mejor te parezca.</p>
-                        <a href="#" class="" data-toggle="modal">
-                      
-                    </a>
+                        <img src="img/grumpy3.png" class="img-responsive maginauto" alt="">
+                        <h3 class="text-center">Paso 2</h3>
+                        <p class="text-center">Escoge la forma de pago que mejor te parezca.</p>
+                     
                 </div>
                 
                 <div class="col-sm-4 portfolio-item">
-                    <img src="img/grumpy2.png" class="img-responsive" alt="">   
-                    <h3 class="">Paso 3</h3>
-                    <p>Introduce tu dirección y dejanos hacer el resto.</p>
-                    <a href="#" class="" data-toggle="modal">
-                      
-                    </a>
+                    <img src="img/grumpy2.png" class="img-responsive maginauto" alt="">   
+                    <h3 class="text-center">Paso 3</h3>
+                    <p class="text-center">Introduce tu dirección y dejanos hacer el resto.</p>
+             
                 </div>
      
 
@@ -197,7 +194,24 @@
                             </div>
                         </div>  
 			    </div>
-		
+		      <div class="item">
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2">
+                                <div class="testimonials">
+                                    <div class="active item">
+                                      <blockquote><p>"Ta ta ta".</p></blockquote>
+                                      <div class="carousel-info">
+                                        <img alt="" src="http://d3ustg7s7bf7i9.cloudfront.net/mmediafiles/pl/9f/9fbe818a-dc73-457b-8373-a2f8a5463190_749_499.jpg" class="pull-left">
+                                        <div class="pull-left">
+                                          <span class="testimonials-name">Profesor Jirafales</span>
+                                          <span class="testimonials-post"></span>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+			    </div>
 			</div>
 
 		</div><!-- /carousel -->
@@ -259,7 +273,7 @@
                                 </div>
                             </div>
                         </div>
-                                       <div class="panel panel-default panel-faq">
+                        <div class="panel panel-default panel-faq">
                             <div class="panel-heading">
                                 <a data-toggle="collapse" data-parent="#accordion-cat-1" href="#faq-cat-1-sub-3">
                                     <h4 class="panel-title">
@@ -271,6 +285,21 @@
                             <div id="faq-cat-1-sub-3" class="panel-collapse collapse">
                                 <div class="panel-body faq-text">
                                     Respuesta 3.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default panel-faq">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-cat-1" href="#faq-cat-1-sub-4">
+                                    <h4 class="panel-title">
+                                        Pregunta 4
+                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="faq-cat-1-sub-4" class="panel-collapse collapse">
+                                <div class="panel-body faq-text">
+                                    Respuesta 4.
                                 </div>
                             </div>
                         </div>
@@ -287,35 +316,28 @@
 <!-- /Seccion FAQ -->
     
     <!-- Contact Section -->
-    <section id="contact">
-        <div class="container" >
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Contacto</h2>
-                    <hr class="star-primary">
-                    
-                    
-                </div>
-            </div>
-
-        </div>
-    </section>
+    
 
     <!-- Footer -->
-    <footer class="text-center">
+    <footer class="text-center" id="contact">
         <div class="footer-above">
             <div class="container">
                 <div class="row">
-                    <div class="footer-col col-md-6">
+                    <div class="footer-col col-md-4">
+                        <h3>Teléfono</h3>
+                        <p>442 0 -0 -0 hasta que se te hinche el dedo</p>
+                    </div>
+                    
+                    <div class="footer-col col-md-4">
                         <h3>Ubicación</h3>
                         <p>3481 Melrose Place
                             <br>Beverly Hills, CA 90210</p>
                     </div>
-                    <div class="footer-col col-md-6">
+                    <div class="footer-col col-md-4">
                         <h3>Redes Sociales</h3>
                         <ul class="list-inline">
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                                <a href="https://www.facebook.com/DrunkenCards/?fref=ts" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
                             </li>
                    
                             <li>
@@ -368,7 +390,11 @@
 
     <!-- Theme JavaScript -->
     <script src="js/freelancer.min.js"></script>
+    
 
+    
+    
+    
     <script>
     $(document).ready(function() {
     $('.collapse').on('show.bs.collapse', function() {
@@ -387,277 +413,7 @@
     <script type="text/javascript">
 //<![CDATA[
 
-/* <BuyButton> */
-(function () {
-  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-  if (window.ShopifyBuy) {
-    if (window.ShopifyBuy.UI) {
-      ShopifyBuyInit();
-    } else {
-      loadScript();
-    }
-  } else {
-    loadScript();
-  }
 
-  function loadScript() {
-    var script = document.createElement('script');
-    script.async = true;
-    script.src = scriptURL;
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-    script.onload = ShopifyBuyInit;
-  }
-
-  function ShopifyBuyInit() {
-    var client = ShopifyBuy.buildClient({
-      domain: 'awali-games.myshopify.com',
-      apiKey: '59805849d9d1d5898f365650c540eb89',
-      appId: '6',
-    });
-
-    ShopifyBuy.UI.onReady(client).then(function (ui) {
-      ui.createComponent('collection', {
-        id: 402466500,
-        node: document.getElementById('collection-component-0f2fedf9b25'),
-        moneyFormat: '$ {{amount}}',
-        options: {
-  "product": {
-    "buttonDestination": "cart",
-    "layout": "vertical",
-    "variantId": "all",
-    "width": "280px",
-    "contents": {
-      "img": true,
-      "title": true,
-      "variantTitle": false,
-      "options": true,
-      "price": true,
-      "description": false,
-      "buttonWithQuantity": false,
-      "button": true,
-      "quantity": false
-    },
-    "text": {
-      "button": "Agregar al carrito"
-    },
-    "styles": {
-      "product": {
-        "@media (min-width: 601px)": {
-          "max-width": "calc(25% - 20px)",
-          "margin-left": "20px",
-          "margin-bottom": "50px"
-        }
-      },
-      "button": {
-        "background-color": "#78b657",
-        "color": "#ffffff",
-        "font-family": "Helvetica Neue, sans-serif",
-        "font-size": "15px",
-        "padding-top": "16px",
-        "padding-bottom": "16px",
-        "padding-left": "26px",
-        "padding-right": "26px",
-        "border": "none",
-        ":hover": {
-          "background-color": "#5f9d3e",
-          "color": "#ffffff"
-        },
-        "border-radius": "3px"
-      },
-      "variantTitle": {
-        "font-family": "Helvetica Neue, sans-serif",
-        "font-size": "14px",
-        "color": "#4c4c4c"
-      },
-      "title": {
-        "font-family": "Helvetica Neue, sans-serif",
-        "font-weight": "bold",
-        "font-size": "18px",
-        "color": "#4c4c4c"
-      },
-      "description": {
-        "color": "#4c4c4c",
-        "font-size": "14px",
-        "font-family": "Helvetica Neue, sans-serif"
-      },
-      "price": {
-        "font-family": "Helvetica Neue, sans-serif",
-        "font-size": "14px",
-        "color": "#4c4c4c"
-      },
-      "quantityInput": {
-        "font-size": "16px",
-        "padding-top": "16px",
-        "padding-bottom": "16px",
-        "color": "#4c4c4c"
-      }
-    }
-  },
-  "cart": {
-    "contents": {
-      "title": true,
-      "lineItems": true,
-      "footer": true,
-      "button": true
-    },
-    "text": {
-      "title": "Cart",
-      "total": "Total",
-      "notice": "Shipping and discount codes are added at checkout.",
-      "button": "CHECKOUT",
-      "empty": "Your cart is empty."
-    },
-    "styles": {
-      "button": {
-        "background-color": "#78b657",
-        "color": "#ffffff",
-        "font-family": "Helvetica Neue, sans-serif",
-        "font-size": "16px",
-        "padding-top": "16px",
-        "padding-bottom": "16px",
-        "padding-left": "26px",
-        "padding-right": "26px",
-        "border": "none",
-        ":hover": {
-          "background-color": "#5f9d3e",
-          "color": "#ffffff"
-        },
-        "border-radius": "3px"
-      },
-      "cart": {
-        "background-color": "#ffffff"
-      },
-      "footer": {
-        "background-color": "#ffffff"
-      },
-      "title": {
-        "color": "#4c4c4c"
-      },
-      "close": {
-        ":hover": {
-        }
-      }
-    }
-  },
-  "modalProduct": {
-    "contents": {
-      "img": true,
-      "title": true,
-      "variantTitle": false,
-      "options": true,
-      "price": true,
-      "description": true,
-      "buttonWithQuantity": false,
-      "button": true,
-      "quantity": false
-    },
-    "text": {
-      "button": "ADD TO CART"
-    },
-    "styles": {
-      "product": {
-        "@media (min-width: 601px)": {
-          "max-width": "100%",
-          "margin-left": "0px",
-          "margin-bottom": "0px"
-        }
-      },
-      "button": {
-        "background-color": "#78b657",
-        "color": "#ffffff",
-        "font-family": "Helvetica Neue, sans-serif",
-        "font-size": "15px",
-        "padding-top": "16px",
-        "padding-bottom": "16px",
-        "padding-left": "26px",
-        "padding-right": "26px",
-        "border": "none",
-        ":hover": {
-          "background-color": "#5f9d3e",
-          "color": "#ffffff"
-        },
-        "border-radius": "3px"
-      },
-      "variantTitle": {
-        "font-family": "Helvetica Neue, sans-serif",
-        "font-size": "14px",
-        "color": "#4c4c4c"
-      },
-      "title": {
-        "font-family": "Helvetica Neue, sans-serif",
-        "font-weight": "bold",
-        "font-size": "26px",
-        "color": "#4c4c4c"
-      },
-      "description": {
-        "color": "#4c4c4c",
-        "font-size": "14px",
-        "font-family": "Helvetica Neue, sans-serif"
-      },
-      "price": {
-        "font-family": "Helvetica Neue, sans-serif",
-        "font-size": "18px",
-        "color": "#4c4c4c"
-      },
-      "quantityInput": {
-        "font-size": "16px",
-        "padding-top": "16px",
-        "padding-bottom": "16px",
-        "color": "#4c4c4c"
-      },
-      "compareAt": {
-        "font-size": "15px"
-      }
-    }
-  },
-  "productSet": {
-    "styles": {
-      "products": {
-        "@media (min-width: 601px)": {
-          "margin-left": "-20px"
-        }
-      }
-    }
-  },
-  "toggle": {
-    "styles": {
-      "toggle": {
-        "font-family": "Helvetica Neue, sans-serif",
-        "background-color": "#78b657",
-        ":hover": {
-          "background-color": "#5f9d3e"
-        }
-      }
-    }
-  },
-  "modal": {
-    "styles": {
-      "modal": {
-        "background-color": "#ffffff"
-      }
-    }
-  },
-  "option": {
-    "styles": {
-      "label": {
-        "font-family": "Helvetica Neue, sans-serif",
-        "font-weight": "normal",
-        "color": "#4c4c4c"
-      },
-      "select": {
-        "font-family": "Helvetica Neue, sans-serif",
-        "font-weight": "normal",
-        "color": "#4c4c4c"
-      }
-    }
-  }
-}
-      });
-    });
-  }
-})();
-/* </BuyButton> */
-//]]>
 </script>
 </body>
 
