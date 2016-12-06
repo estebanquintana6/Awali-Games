@@ -83,12 +83,9 @@
         <section id="main">
             <div class="row">
                 <div class="col-lg-12">
-                    <br>
-                    <img class="img-responsive" src="img/profile.png" alt="">
+                    <img class="img-responsive verticalalign" src="AWALI%20Games%20Logo.png" alt="" width="30%" height="30%">
                     <div class="intro-text">
-                        <span class="name">Awali</span>
                         <hr class="star-light">
-                        <span class="skills">Tienda en linea de juegos de mesa</span>
                     </div>
                 </div>
             </div>
@@ -96,13 +93,25 @@
     </header>
 
     <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-              <div class="col-lg-12 text-center">
-                    <h2>Algunos de nuestros productos</h2>
+<section id="portfolio" class="fafa">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Nuestros productos</h2>
                     <hr class="star-primary">
                 </div>
-            <div id='collection-component-0f2fedf9b25'></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 col-md-offset-4 tilt pic">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <img src="img/portfolio/cabin.png" class="img-responsive" alt="">
 
+                    </a>
+                    
+                </div>
+            </div>
+
+        </div>
     </section>
 
     <!-- About Section -->
@@ -133,7 +142,6 @@
                     <img src="img/grumpy2.png" class="img-responsive maginauto" alt="">   
                     <h3 class="text-center">Paso 3</h3>
                     <p class="text-center">Introduce tu dirección y dejanos hacer el resto.</p>
-             
                 </div>
      
 
@@ -143,7 +151,7 @@
 
     <!-- Seccion de testimonios -->
     
-     <section id="clients">
+     <section id="clients" class="fafa">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -314,9 +322,63 @@
         </div>
     </section>
 <!-- /Seccion FAQ -->
+
+    
     
     <!-- Contact Section -->
-    
+    <section id="contact" class="fafa">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Contactanos</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Nombre</label>
+                                <input type="text" class="form-control" placeholder="Nombre" id="name" required data-validation-required-message="Por favor,introduzca su nombre.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Email</label>
+                                <input type="email" class="form-control" placeholder="Email" id="email" required data-validation-required-message="Por favor, introduzca su email.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Teléfono</label>
+                                <input type="tel" class="form-control" placeholder="Teléfono" id="phone" required data-validation-required-message="Por favor, introduzca su teléfono.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Mensaje</label>
+                                <textarea rows="5" class="form-control" placeholder="Mensaje" id="message" required data-validation-required-message="Escriba un mensaje."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="success"></div>
+                        <div class="row">
+                            <div class="form-group col-xs-12">
+                                <button type="submit" class="btn btn-success btn-lg">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Footer -->
     <footer class="text-center" id="contact">
@@ -372,7 +434,40 @@
     </div>
 
     <!-- Portfolio Modals -->
-    
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
+                    </div>
+                    <div class="col-lg-6">
+                            <h2>Drunken Cards</h2>
+                            <hr class="star-primary">
+                                 <p>Descripción de ejemplo Descripción de ejemplo Descripción de ejemplo Descripción de ejemplo Descripción de ejemplo Descripción de ejemplo </p>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                <div id='product-component-72a0a808ff2' class="inner"></div>
+                                </div>
+                                </div>
+                            <ul class="list-inline item-details">
+                                <li>Vendedor:
+                                    <strong><a href="#">Awali Games</a></strong>
+                                </li>   
+                            </ul>
+                    </div>  
+                </div>
+                <div class="row">
+                </div>
+                </div>
+            </div>
+        </div>
 
 
     <!-- jQuery -->
