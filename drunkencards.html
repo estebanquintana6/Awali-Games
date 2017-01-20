@@ -8,7 +8,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
+    <meta name="description" content="Baraja: A Plugin for Spreading Items in a Card-Like Fashion" />
+    <meta name="keywords" content="jquery, plugin, transform, css3, cards, spread, items, web development" />
+    <meta name="author" content="Codrops" />
+    <link rel="shortcut icon" href="../favicon.ico"> 
+    <link rel="stylesheet" type="text/css" href="css/baraja.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/custom.css" />
+    <script type="text/javascript" src="js/modernizr.custom.79639.js"></script>
+    
     <title>Drunken Cards</title>
 
     <!-- Bootstrap Core CSS -->
@@ -23,7 +31,8 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     
         <!-- Shopify Javascript -->
-    
+    <script src="js/shopify2.js"></script>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -48,7 +57,7 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <a class="navbar-brand" href="#main"><img src="img/logo/minilogo.svg" width="25%"></a>
+                <a class="navbar-brand" href="index.html"><img src="img/logo/minilogo.svg" class="marginminus5 logoesquina" width="40%"></a>
 
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
@@ -74,12 +83,12 @@
     </nav>
 
     <!-- Header -->
-    <header>
+    <header class="fondo1">
         <section id="main">
             <div class="container">
                 <div class="row">
                 <div class="col-lg-12">
-                    <img src="img/Drunken/drunkenlogo.png" class="img-responsive logawali logo5perc" alt="">
+                    <img src="DRUNKEN%20CARDS%20LOGO.svg" class="img-responsive logdrunken logo5perc logdrunkenmin" alt="">
                 </div>
             </div>
             </div>
@@ -91,16 +100,44 @@
 <section id="portfolio" class="fafa">
         <div class="container">
             <div class="row">
-                        <div class="col-xs-6 text-center">
+                        <div class="col-md-6 margincards">  
+
+
+				<div class="baraja-demo">
+					<ul id="baraja-el" class="baraja-container cartassize">
+						<li><br><img src="cards/ABSOLUTA%2011.jpg" alt="image1"/></li>
+						<li><br><img src="cards/ABSOLUTA%2016.jpg" alt="image2"/></li>
+						<li><br><img src="cards/ABSOLUTA%2019.jpg" alt="image3"/></li>
+						<li><br><img src="cards/ABSOLUTA%2023.jpg" alt="image4"/></li>
+						<li><br><img src="cards/FUGAZ%201.jpg" alt="image5"/></li>
+						<li><br><img src="cards/FUGAZ%202.jpg" alt="image6"/></li>
+						<li><br><img src="cards/FUGAZ%204.jpg" alt="image7"/></li>
+						<li><br><img src="cards/MASACRE%205.jpg" alt="image8"/></li>
+						<li><br><img src="cards/MASACRE%2017.jpg" alt="image9"/></li>
+						<li><br><img src="cards/MASACRE%2020.jpg" alt="image10"/></li>
+						<li><br><img src="cards/MASACRE%2024.jpg" alt="image11"/></li>
+						<li><br><img src="cards/PROTECCION%206.jpg" alt="image12"/></li>
+						<li><br><img src="cards/PROTECCION%207.jpg" alt="image3"/></li>
+						<li><br><img src="cards/PROTECCION%2010.jpg" alt="image4"/></li>
+						<li><br><img src="cards/VERSUS%201.svg" alt="image5"/></li>
+						<li><br><img src="cards/VERSUS%202.svg" alt="image6"/></li>
+						<li><br><img src="cards/VERSUS%205.svg" alt="image7"/></li>
+						<li><br><img src="cards/VERSUS%208.svg" alt="image8"/></li>
+					</ul>
+                    		<nav class="actions">
+					<span id="nav-prev">&lt;</span>
+                    <span id="nav-next">&gt;</span>
+				</nav>          
+				</div>
+		                </div>
+                
+                <div class="col-md-6 text-center">
                    <h2>Drunken Cards</h2>
                    <hr class="star-primary">
-
+                   <p class="text-justify">Si estás aburrido de las reuniones y fiestas de siempre, Drunken Cards es el juego perfecto para ti. La mezcla perfecta entre retos, preguntas, castigos y diversión.</p><p><strong>El juego consta de 100 cartas, repartidas en 5 clases: Absolutas, Masacre, Fugaz, Proteccion y Versus.</strong> </p><p class="text-justify"> El juego esta hecho para que conozcas más gente de manera más dinámica sin tener que pasar por el interrogatorio. Puedes darle muchísimas variaciones al juego, seleccionando las cartas que quieras que aparezcan de acuerdo a la reunión en donde estés. Y para los ecoamigables, Drunken Cards es 100% amigable con el medio ambiente.</p>
+                   <div id='product-component-268e72dbb6b' class="maginauto"></div>
                 </div>  
-                <div class="col-xs-6">
-                    
-                        <img src="img/Drunken/drunken_cards.png" class="img-responsive" alt="">
-                    
-                </div>
+    
         
             </div>
 
@@ -119,20 +156,20 @@
             
             <div class="row">
                  <div class="col-sm-4 portfolio-item">
-                        <img src="img/grumpy.png" class="img-responsive maginauto" alt="">
+                        <img src="images/fotosparapagina/Selecciona.svg" class="img-responsive maginauto" alt="">
                         <h3 class="text-center">Paso 1</h3>
                         <p class="text-center">Escoge tus productos y agregalos al carrito</p>
                    
                 </div>
                 <div class="col-sm-4 portfolio-item">
-                        <img src="img/grumpy3.png" class="img-responsive maginauto" alt="">
+                        <img src="images/fotosparapagina/Paga.svg" class="img-responsive maginauto" alt="">
                         <h3 class="text-center">Paso 2</h3>
                         <p class="text-center">Escoge la forma de pago que mejor te parezca.</p>
                      
                 </div>
                 
                 <div class="col-sm-4 portfolio-item">
-                    <img src="img/grumpy2.png" class="img-responsive maginauto" alt="">   
+                    <img src="images/fotosparapagina/Envio.svg" class="img-responsive maginauto" alt="">   
                     <h3 class="text-center">Paso 3</h3>
                     <p class="text-center">Introduce tu dirección y dejanos hacer el resto.</p>
                 </div>
@@ -328,6 +365,248 @@
 
 
 </script>
+    
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.baraja.js"></script>
+        <script type="text/javascript">	
+			$(function() {
+
+				var $el = $( '#baraja-el' ),
+					baraja = $el.baraja();
+
+				// navigation
+				$( '#nav-prev' ).on( 'click', function( event ) {
+
+					baraja.previous();
+				
+				} );
+
+				$( '#nav-next' ).on( 'click', function( event ) {
+
+					baraja.next();
+				
+				} );
+
+				// simple fan
+				$( '#nav-fan' ).on( 'click', function( event ) {
+
+					baraja.fan( {
+						speed : 500,
+						easing : 'ease-out',
+						range : 90,
+						direction : 'right',
+						origin : { x : 25, y : 100 },
+						center : true
+					} );
+				
+				} );
+
+				$( '#nav-fan2' ).on( 'click', function( event ) {
+
+					baraja.fan( {
+						speed : 500,
+						easing : 'ease-out',
+						range : 90,
+						direction : 'left',
+						// note that the x origin changes (symmetric)
+						origin : { x : 75, y : 100 },
+						center : true
+					} );
+				
+				} );
+
+				// more realistic fan: without common origin (means the origin changes / increments by card )
+				$( '#nav-fan3' ).on( 'click', function( event ) {
+
+					baraja.fan( {
+						speed : 500,
+						easing : 'ease-out',
+						range : 90,
+						direction : 'right',
+						origin : { minX : 20, maxX : 80, y : 100 },
+						center : true,
+						translation : 60
+					} );
+				
+				} );
+
+				$( '#nav-fan4' ).on( 'click', function( event ) {
+
+					baraja.fan( {
+						speed : 500,
+						easing : 'ease-out',
+						range : 90,
+						direction : 'left',
+						origin : { minX : 20, maxX : 80, y : 100 },
+						center : true,
+						translation : 60
+					} );
+				
+				} );
+
+				// playing with different origins and ranges	
+				$( '#nav-fan5' ).on( 'click', function( event ) {
+
+					baraja.fan( {
+						speed : 500,
+						easing : 'ease-out',
+						range : 100,
+						direction : 'right',
+						origin : { x : 50, y : 200 },
+						center : true
+					} );
+				
+				} );
+
+				$( '#nav-fan6' ).on( 'click', function( event ) {
+
+					baraja.fan( {
+						speed : 500,
+						easing : 'ease-out',
+						range : 80,
+						direction : 'left',
+						origin : { x : 200, y : 50 },
+						center : true
+					} );
+				
+				} );
+
+				// center false, playing with translation
+				$( '#nav-fan7' ).on( 'click', function( event ) {
+
+					baraja.fan( {
+						speed : 500,
+						easing : 'ease-out',
+						range : 20,
+						direction : 'right',
+						origin : { x : 50, y : 200 },
+						center : false,
+						translation : 300
+					} );
+				
+				} );
+
+				$( '#nav-fan8' ).on( 'click', function( event ) {
+
+					baraja.fan( {
+						speed : 500,
+						easing : 'ease-out',
+						range : 20,
+						direction : 'left',
+						origin : { x : 50, y : 200 },
+						center : false,
+						translation : 300
+					} );
+				
+				} );
+
+				// using scatter : true
+				$( '#nav-fan9' ).on( 'click', function( event ) {
+
+					baraja.fan( {
+						speed : 500,
+						easing : 'ease-out',
+						range : 20,
+						direction : 'right',
+						origin : { x : 50, y : 200 },
+						center : false,
+						translation : 300,
+						scatter : true
+					} );
+				
+				} );
+
+				$( '#nav-fan10' ).on( 'click', function( event ) {
+
+					baraja.fan( {
+						speed : 500,
+						easing : 'ease-out',
+						range : 20,
+						direction : 'left',
+						origin : { x : 50, y : 200 },
+						center : false,
+						translation : 300,
+						scatter : true
+					} );
+				
+				} );
+
+				$( '#nav-fanOther1' ).on( 'click', function( event ) {
+
+					baraja.fan( {
+						speed : 500,
+						easing : 'ease-out',
+						range : 130,
+						direction : 'left',
+						origin : { x : 25, y : 100 },
+						center : false
+					} );
+				
+				} );
+
+				$( '#nav-fanOther2' ).on( 'click', function( event ) {
+
+					baraja.fan( {
+						speed : 500,
+						easing : 'ease-out',
+						range : 360,
+						direction : 'left',
+						origin : { x : 50, y : 90 },
+						center : false
+					} );
+				
+				} );
+
+				$( '#nav-fanOther3' ).on( 'click', function( event ) {
+
+					baraja.fan( {
+						speed : 500,
+						easing : 'ease-out',
+						range : 330,
+						direction : 'left',
+						origin : { x : 50, y : 100 },
+						center : true
+					} );
+				
+				} );
+
+				$( '#nav-fanOther4' ).on( 'click', function( event ) {
+
+					baraja.fan( {
+						speed : 500,
+						easing : 'ease-out',
+						range : 90,
+						direction : 'right',
+						origin : { minX : 20, maxX : 80, y : 100 },
+						center : true,
+						translation : 60,
+						scatter : true
+					} );
+				
+				} );
+
+				// close the baraja
+				$( '#close' ).on( 'click', function( event ) {
+
+					baraja.close();
+				
+				} );
+
+				// example of how to add more items
+				$( '#add' ).on( 'click', function( event ) {
+
+					if( $( this ).hasClass( 'disabled' ) ) {
+						return false;
+					}
+
+					$( this ).addClass( 'disabled' );
+
+					baraja.add( $('<li><img src="images/6.jpg" alt="image6"/><h4>Serenity</h4><p>Truffaut wes anderson hoodie 3 wolf moon labore, fugiat lomo iphone eiusmod vegan.</p></li><li><img src="images/7.jpg" alt="image7"/><h4>Dark Honor</h4><p>Chillwave mustache pinterest, marfa seitan umami id farm-to-table iphone.</p></li><li><img src="images/8.jpg" alt="image8"/><h4>Nested Happiness</h4><p>Minim post-ironic banksy american apparel iphone wayfarers.</p></li><li><img src="images/9.jpg" alt="image9"/><h4>Cherry Country</h4><p>Sint vinyl Austin street art odd future id trust fund, terry richardson cray.</p></li>') );
+				
+				} );
+
+			});
+		</script>
 </body>
 
 </html>

@@ -1,0 +1,62 @@
+ul.baraja-container {
+	width: 200px;
+	height: 310px;
+	margin: 0 auto 30px;
+	position: relative;
+	padding: 0;
+	list-style-type: none;
+}
+   @media (min-width:1200px){
+       
+    ul.baraja-container li {
+    height: 100%;
+    width: 100%;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+	background: #fff;
+	pointer-events: auto;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden;
+       }
+    
+    }
+   @media (max-width:1199px){
+       
+    ul.baraja-container li {
+    height: 73%;
+    width: 73%;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+	background: #fff;
+	pointer-events: auto;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	backface-visibility: hidden;
+       }
+    
+    }
+
+.no-js ul.baraja-container {
+	width: auto;
+	height: auto;
+	text-align: center;
+}
+
+.no-js ul.baraja-container li {
+	position: relative;
+	display: inline-block;
+	width: 200px;
+	height: 310px;
+	margin: 10px;
+}
