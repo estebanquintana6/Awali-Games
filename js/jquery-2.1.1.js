@@ -7536,18 +7536,18 @@ var
 	/* Prefilters
 	 * 1) They are useful to introduce custom dataTypes (see ajax/jsonp.js for an example)
 	 * 2) These are called:
-	 *    - BEFORE asking for a transport
+	 *    - BEFORE asking for a Transport
 	 *    - AFTER param serialization (s.data is a string if s.processData is true)
 	 * 3) key is the dataType
 	 * 4) the catchall symbol "*" can be used
-	 * 5) execution will start with transport dataType and THEN continue down to "*" if needed
+	 * 5) execution will start with Transport dataType and THEN continue down to "*" if needed
 	 */
 	prefilters = {},
 
 	/* Transports bindings
 	 * 1) key is the dataType
 	 * 2) the catchall symbol "*" can be used
-	 * 3) selection will start with transport dataType and THEN go to "*" if needed
+	 * 3) selection will start with Transport dataType and THEN go to "*" if needed
 	 */
 	transports = {},
 
@@ -8127,10 +8127,10 @@ jQuery.extend({
 			jqXHR[ i ]( s[ i ] );
 		}
 
-		// Get transport
+		// Get Transport
 		transport = inspectPrefiltersOrTransports( transports, s, options, jqXHR );
 
-		// If no transport, we auto-abort
+		// If no Transport, we auto-abort
 		if ( !transport ) {
 			done( -1, "No Transport" );
 		} else {
@@ -8179,7 +8179,7 @@ jQuery.extend({
 				clearTimeout( timeoutTimer );
 			}
 
-			// Dereference transport for early garbage collection
+			// Dereference Transport for early garbage collection
 			// (no matter how long the jqXHR object will be used)
 			transport = undefined;
 
@@ -8667,9 +8667,9 @@ jQuery.ajaxPrefilter( "script", function( s ) {
 	}
 });
 
-// Bind script tag hack transport
+// Bind script tag hack Transport
 jQuery.ajaxTransport( "script", function( s ) {
-	// This transport only deals with cross domain requests
+	// This Transport only deals with cross domain requests
 	if ( s.crossDomain ) {
 		var script, callback;
 		return {
