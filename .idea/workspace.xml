@@ -2,31 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8dd1cc2-432a-48ef-b66c-b3d8e27259df" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/typescript-compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mailer.ts" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AWALI Games Logo.png.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/icono (1).rar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/grumpy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/grumpy2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/grumpy2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/grumpy3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/item-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/item-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/item-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/product01_col01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/product01_col02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/product01_col03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/product02_col01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/product02_col02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/profile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/super-jumbo-playing-cards-icon.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.pug" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DRUNKEN CARDS LOGO.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Monosphere_Personal_Use.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/drunkencards.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MyriadPro-Bold.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MyriadPro-BoldCond.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MyriadPro-BoldCondIt.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MyriadPro-BoldIt.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MyriadPro-Cond.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MyriadPro-CondIt.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MyriadPro-It.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MyriadPro-Regular.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MyriadPro-Semibold.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/MyriadPro-SemiboldIt.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/icono.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/fotosparapagina/Envio.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/fotosparapagina/Paga.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/fotosparapagina/Selecciona.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Drunken/11722187_1616514578631658_4870275859387144694_o.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Drunken/drunken_cards.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Drunken/drunken_cards.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Drunken/drunkenlogo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo/awalogo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo/minilogo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/font-awesome/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/font-awesome/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/font-awesome/less/animated.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/font-awesome/less/bordered-pulled.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/font-awesome/less/core.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/font-awesome/less/fixed-width.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/font-awesome/less/font-awesome.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/font-awesome/less/icons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/font-awesome/less/larger.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/font-awesome/less/list.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/font-awesome/less/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/font-awesome/less/path.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/font-awesome/less/rotated-flipped.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/font-awesome/less/screen-reader.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/font-awesome/less/stacked.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/font-awesome/less/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/font-awesome/scss/_animated.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/font-awesome/scss/_bordered-pulled.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/font-awesome/scss/_core.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/font-awesome/scss/_fixed-width.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/font-awesome/scss/_icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/font-awesome/scss/_larger.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/font-awesome/scss/_list.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/font-awesome/scss/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/font-awesome/scss/_path.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/font-awesome/scss/_rotated-flipped.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/font-awesome/scss/_screen-reader.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/font-awesome/scss/_stacked.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/font-awesome/scss/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/font-awesome/scss/font-awesome.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/jquery/jquery.min.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery-2.1.1.js" afterPath="$PROJECT_DIR$/js/jquery-2.1.1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/jquery/jquery.js" afterPath="$PROJECT_DIR$/vendor/jquery/jquery.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,73 +84,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7236">
-              <caret line="402" column="0" lean-forward="false" selection-start-line="402" selection-start-column="0" selection-end-line="402" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/urls.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-              <folding>
-                <element signature="e#13#58#0" expanded="true" />
-                <marker date="1485303359635" expanded="true" signature="1091:1102" ph="..." />
-                <marker date="1485303359635" expanded="true" signature="1103:1647" ph="..." />
-                <marker date="1485303359635" expanded="false" signature="1119:1150" ph="..." />
-                <marker date="1485303359635" expanded="true" signature="1151:1272" ph="..." />
-                <marker date="1485303359635" expanded="false" signature="1248:1260" ph="..." />
-                <marker date="1485303359635" expanded="false" signature="1327:1338" ph="..." />
-                <marker date="1485303359635" expanded="false" signature="1401:1412" ph="..." />
-                <marker date="1485303359635" expanded="false" signature="1450:1461" ph="..." />
-                <marker date="1485303359635" expanded="true" signature="1462:1637" ph="..." />
-                <marker date="1485303359635" expanded="false" signature="1481:1491" ph="..." />
-                <marker date="1485303359635" expanded="false" signature="1499:1507" ph="é" />
-                <marker date="1485303359635" expanded="false" signature="1554:1564" ph="..." />
-                <marker date="1485303359635" expanded="false" signature="1582:1590" ph="ó" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="drunkencards.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/drunkencards.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2448">
-              <caret line="136" column="486" lean-forward="false" selection-start-line="136" selection-start-column="486" selection-end-line="136" selection-end-column="486" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -141,6 +111,7 @@
         <option value="$PROJECT_DIR$/test.js" />
         <option value="$PROJECT_DIR$/templates/test.js" />
         <option value="$PROJECT_DIR$/templates/urls.ts" />
+        <option value="$USER_HOME$/Escritorio/awaligames/docker-compose.yml" />
       </list>
     </option>
   </component>
@@ -179,7 +150,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -192,22 +162,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="estebanquintana6.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="estebanquintana6.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -445,6 +402,14 @@
       <option name="presentableId" value="Default" />
       <updated>1479344447819</updated>
     </task>
+    <task id="LOCAL-00001" summary="Nodeemailer">
+      <created>1485304225697</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1485304225697</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -458,39 +423,38 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26810393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2714207" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.50193477" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32985386" sideWeight="0.49806523" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32985386" sideWeight="0.49806523" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/templates/urls.js" />
-      </list>
-    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Nodeemailer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nodeemailer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -501,7 +465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7236">
           <caret line="402" column="0" lean-forward="false" selection-start-line="402" selection-start-column="0" selection-end-line="402" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -509,7 +472,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -517,22 +479,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#13#58#0" expanded="true" />
-            <marker date="1485303359635" expanded="true" signature="1091:1102" ph="..." />
-            <marker date="1485303359635" expanded="true" signature="1103:1647" ph="..." />
-            <marker date="1485303359635" expanded="false" signature="1119:1150" ph="..." />
-            <marker date="1485303359635" expanded="true" signature="1151:1272" ph="..." />
-            <marker date="1485303359635" expanded="false" signature="1248:1260" ph="..." />
-            <marker date="1485303359635" expanded="false" signature="1327:1338" ph="..." />
-            <marker date="1485303359635" expanded="false" signature="1401:1412" ph="..." />
-            <marker date="1485303359635" expanded="false" signature="1450:1461" ph="..." />
-            <marker date="1485303359635" expanded="true" signature="1462:1637" ph="..." />
-            <marker date="1485303359635" expanded="false" signature="1481:1491" ph="..." />
-            <marker date="1485303359635" expanded="false" signature="1499:1507" ph="é" />
-            <marker date="1485303359635" expanded="false" signature="1554:1564" ph="..." />
-            <marker date="1485303359635" expanded="false" signature="1582:1590" ph="ó" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -540,7 +486,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -548,7 +493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2448">
           <caret line="136" column="486" lean-forward="false" selection-start-line="136" selection-start-column="486" selection-end-line="136" selection-end-column="486" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -556,7 +500,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7236">
           <caret line="402" column="0" lean-forward="false" selection-start-line="402" selection-start-column="0" selection-end-line="402" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -564,7 +507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -572,22 +514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#13#58#0" expanded="true" />
-            <marker date="1485303359635" expanded="true" signature="1091:1102" ph="..." />
-            <marker date="1485303359635" expanded="true" signature="1103:1647" ph="..." />
-            <marker date="1485303359635" expanded="false" signature="1119:1150" ph="..." />
-            <marker date="1485303359635" expanded="true" signature="1151:1272" ph="..." />
-            <marker date="1485303359635" expanded="false" signature="1248:1260" ph="..." />
-            <marker date="1485303359635" expanded="false" signature="1327:1338" ph="..." />
-            <marker date="1485303359635" expanded="false" signature="1401:1412" ph="..." />
-            <marker date="1485303359635" expanded="false" signature="1450:1461" ph="..." />
-            <marker date="1485303359635" expanded="true" signature="1462:1637" ph="..." />
-            <marker date="1485303359635" expanded="false" signature="1481:1491" ph="..." />
-            <marker date="1485303359635" expanded="false" signature="1499:1507" ph="é" />
-            <marker date="1485303359635" expanded="false" signature="1554:1564" ph="..." />
-            <marker date="1485303359635" expanded="false" signature="1582:1590" ph="ó" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -595,7 +521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -603,7 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2448">
           <caret line="136" column="486" lean-forward="false" selection-start-line="136" selection-start-column="486" selection-end-line="136" selection-end-column="486" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -611,7 +535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7236">
           <caret line="402" column="0" lean-forward="false" selection-start-line="402" selection-start-column="0" selection-end-line="402" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -619,7 +542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -627,22 +549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#13#58#0" expanded="true" />
-            <marker date="1485303359635" expanded="true" signature="1091:1102" ph="..." />
-            <marker date="1485303359635" expanded="true" signature="1103:1647" ph="..." />
-            <marker date="1485303359635" expanded="false" signature="1119:1150" ph="..." />
-            <marker date="1485303359635" expanded="true" signature="1151:1272" ph="..." />
-            <marker date="1485303359635" expanded="false" signature="1248:1260" ph="..." />
-            <marker date="1485303359635" expanded="false" signature="1327:1338" ph="..." />
-            <marker date="1485303359635" expanded="false" signature="1401:1412" ph="..." />
-            <marker date="1485303359635" expanded="false" signature="1450:1461" ph="..." />
-            <marker date="1485303359635" expanded="true" signature="1462:1637" ph="..." />
-            <marker date="1485303359635" expanded="false" signature="1481:1491" ph="..." />
-            <marker date="1485303359635" expanded="false" signature="1499:1507" ph="é" />
-            <marker date="1485303359635" expanded="false" signature="1554:1564" ph="..." />
-            <marker date="1485303359635" expanded="false" signature="1582:1590" ph="ó" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -650,7 +556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -658,7 +563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2448">
           <caret line="136" column="486" lean-forward="false" selection-start-line="136" selection-start-column="486" selection-end-line="136" selection-end-column="486" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -666,7 +570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -674,7 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7794">
           <caret line="433" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="433" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -682,7 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10548">
           <caret line="586" column="0" lean-forward="false" selection-start-line="586" selection-start-column="0" selection-end-line="586" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -699,7 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7794">
           <caret line="433" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="433" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -707,7 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10548">
           <caret line="586" column="0" lean-forward="false" selection-start-line="586" selection-start-column="0" selection-end-line="586" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -724,7 +623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7794">
           <caret line="433" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="433" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -732,7 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10548">
           <caret line="586" column="0" lean-forward="true" selection-start-line="586" selection-start-column="0" selection-end-line="586" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -742,7 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -762,19 +658,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7236">
-          <caret line="402" column="0" lean-forward="false" selection-start-line="402" selection-start-column="0" selection-end-line="402" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -782,15 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/drunkencards.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2448">
-          <caret line="136" column="486" lean-forward="false" selection-start-line="136" selection-start-column="486" selection-end-line="136" selection-end-column="486" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -819,24 +697,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/urls.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding>
-            <element signature="e#13#58#0" expanded="true" />
-            <marker date="1485303359635" expanded="true" signature="1091:1102" ph="..." />
-            <marker date="1485303359635" expanded="true" signature="1103:1647" ph="..." />
-            <marker date="1485303359635" expanded="false" signature="1119:1150" ph="..." />
-            <marker date="1485303359635" expanded="true" signature="1151:1272" ph="..." />
-            <marker date="1485303359635" expanded="false" signature="1248:1260" ph="..." />
-            <marker date="1485303359635" expanded="false" signature="1327:1338" ph="..." />
-            <marker date="1485303359635" expanded="false" signature="1401:1412" ph="..." />
-            <marker date="1485303359635" expanded="false" signature="1450:1461" ph="..." />
-            <marker date="1485303359635" expanded="true" signature="1462:1637" ph="..." />
-            <marker date="1485303359635" expanded="false" signature="1481:1491" ph="..." />
-            <marker date="1485303359635" expanded="false" signature="1499:1507" ph="é" />
-            <marker date="1485303359635" expanded="false" signature="1554:1564" ph="..." />
-            <marker date="1485303359635" expanded="false" signature="1582:1590" ph="ó" />
-          </folding>
+        <state relative-caret-position="126">
+          <caret line="40" column="20" lean-forward="true" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="402" column="0" lean-forward="false" selection-start-line="402" selection-start-column="0" selection-end-line="402" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drunkencards.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="136" column="486" lean-forward="false" selection-start-line="136" selection-start-column="486" selection-end-line="136" selection-end-column="486" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Escritorio/awaligames/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
         </state>
       </provider>
     </entry>

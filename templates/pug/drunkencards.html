@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="description" content="Baraja: A Plugin for Spreading Items in a Card-Like Fashion" />
+    <meta name="keywords" content="jquery, plugin, transform, css3, cards, spread, items, web development" />
+    <meta name="author" content="Codrops" />
+    <link rel="shortcut icon" href="../favicon.ico"> 
+    <link rel="stylesheet" type="text/css" href="../../server/static/css/baraja.css" />
+    <link rel="stylesheet" type="text/css" href="../../server/static/css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="../../server/static/css/custom.css" />
+    <script type="text/javascript" src="../../server/static/js/modernizr.custom.79639.js"></script>
+    
+    <title>Drunken Cards</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../../server/static/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Theme CSS -->
+    <link href="../../server/static/css/freelancer.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../../server/static/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    
+        <!-- Shopify Javascript -->
+    <script src="../../server/static/js/shopify2.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <!--<a class="navbar-brand" href="#page-top">LOGO</a> -->
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <a class="navbar-brand" href="index.html"><img src="../../server/static/images/minilogo.svg" class="marginminus5 logoesquina" width="40%"></a>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+        
+                    <li class="page-scroll">
+                        <a href="#portfolio">Descripción</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#guide">Cómo comprar</a>
+                    </li>
+         
+                    <li class="page-scroll">
+                        <a href="#preguntas">Preguntas</a>
+                    </li>
+    
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header class="fondo1">
+        <section id="main">
+            <div class="container">
+                <div class="row">
+                <div class="col-lg-12">
+                    <img src="../../server/static/images/DRUNKEN%20CARDS%20LOGO.svg" class="img-responsive logdrunken logo5perc logdrunkenmin" alt="">
+                </div>
+            </div>
+            </div>
+            
+            </section>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+<section id="portfolio" class="fafa">
+        <div class="container">
+            <div class="row">
+                        <div class="col-md-6 margincards">  
+
+
+				<div class="baraja-demo">
+					<ul id="baraja-el" class="baraja-container cartassize">
+						<li><br><img src="../../server/static/images/cards/ABSOLUTA%2011.jpg" alt="image1"/></li>
+						<li><br><img src="../../server/static/images/cards/ABSOLUTA%2016.jpg" alt="image2"/></li>
+						<li><br><img src="../../server/static/images/cards/ABSOLUTA%2019.jpg" alt="image3"/></li>
+						<li><br><img src="../../server/static/images/cards/ABSOLUTA%2023.jpg" alt="image4"/></li>
+						<li><br><img src="../../server/static/images/cards/FUGAZ%201.jpg" alt="image5"/></li>
+						<li><br><img src="../../server/static/images/cards/FUGAZ%202.jpg" alt="image6"/></li>
+						<li><br><img src="../../server/static/images/cards/FUGAZ%204.jpg" alt="image7"/></li>
+						<li><br><img src="../../server/static/images/cards/MASACRE%205.jpg" alt="image8"/></li>
+						<li><br><img src="../../server/static/images/cards/MASACRE%2017.jpg" alt="image9"/></li>
+						<li><br><img src="../../server/static/images/cards/MASACRE%2020.jpg" alt="image10"/></li>
+						<li><br><img src="../../server/static/images/cards/MASACRE%2024.jpg" alt="image11"/></li>
+						<li><br><img src="../../server/static/images/cards/PROTECCION%206.jpg" alt="image12"/></li>
+						<li><br><img src="../../server/static/images/cards/PROTECCION%207.jpg" alt="image3"/></li>
+						<li><br><img src="../../server/static/images/cards/PROTECCION%2010.jpg" alt="image4"/></li>
+						<li><br><img src="../../server/static/images/cards/VERSUS%201.svg" alt="image5"/></li>
+						<li><br><img src="../../server/static/images/cards/VERSUS%202.svg" alt="image6"/></li>
+						<li><br><img src="../../server/static/images/cards/VERSUS%205.svg" alt="image7"/></li>
+						<li><br><img src="../../server/static/images/cards/VERSUS%208.svg" alt="image8"/></li>
+					</ul>
+                    		<nav class="actions">
+					<span id="nav-prev">&lt;</span>
+                    <span id="nav-next">&gt;</span>
+				</nav>          
+				</div>
+		                </div>
+                
+                <div class="col-md-6 text-center">
+                    
+                   <h2>Drunken Cards</h2>
+                   <hr class="star-primary">
+                   <p class="text-justify ">Si estás aburrido de las reuniones y fiestas de siempre, Drunken Cards es el juego perfecto para ti. La mezcla perfecta entre retos, preguntas, castigos y diversión.</p><p><strong>El juego consta de 100 cartas, repartidas en 5 clases: Absolutas, Masacre, Fugaz, Proteccion y Versus.</strong> </p><p class="text-justify">Puedes darle muchísimas variaciones al juego, seleccionando las cartas que quieras que aparezcan de acuerdo a la reunión en donde estés.</p><p class="presentationcardstext"><strong>P.D. El material con el que está hecho Drunken Cards es 100% reciclable además de que resiste al agua, alcohol, no se decolora con el tiempo y no es tóxico.</strong></p>
+                   <div id='product-component-268e72dbb6b' class="maginauto"></div>
+                </div>  
+    
+        
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="success" id="guide">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>¿Cómo realizo mi pedido?</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            
+            <div class="row">
+                 <div class="col-sm-4 portfolio-item">
+                        <img src="../../server/static/images/Selecciona.svg" class="img-responsive maginauto" alt="">
+                        <h3 class="text-center">Paso 1</h3>
+                        <p class="text-center">Escoge tus productos y agregalos al carrito</p>
+                   
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                        <img src="../../server/static/images/Paga.svg" class="img-responsive maginauto" alt="">
+                        <h3 class="text-center">Paso 2</h3>
+                        <p class="text-center">Escoge la forma de pago que mejor te parezca.</p>
+                     
+                </div>
+                
+                <div class="col-sm-4 portfolio-item">
+                    <img src="../../server/static/images/Envio.svg" class="img-responsive maginauto" alt="">   
+                    <h3 class="text-center">Paso 3</h3>
+                    <p class="text-center">Introduce tu dirección y dejanos hacer el resto.</p>
+                </div>
+     
+
+            </div>
+        </div>
+    </section>
+
+   
+<!-- /Seccion de testimonios -->
+
+<!-- Seccion FAQ -->
+    <section class="fafa" id="preguntas">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Preguntas y respuestas</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            
+   <div class="container">   
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2"> 
+            <!-- Tab panes -->
+            <div class="tab-content faq-cat-content">
+                <div class="tab-pane active in fade" id="faq-cat-1">
+                    <div class="panel-group" id="accordion-cat-1">
+                        <div class="panel panel-default panel-faq">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-cat-1" href="#faq-cat-1-sub-1">
+                                    <h4 class="panel-title">
+                                         ¿El juego está disponible en otros idiomas?
+                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="faq-cat-1-sub-1" class="panel-collapse collapse">
+                                <div class="panel-body faq-text">
+                                  
+                                    Por el momento sólo está en español pero se tiene pensando traducir al idioma inglés.
+                                 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default panel-faq">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-cat-1" href="#faq-cat-1-sub-2">
+                                    <h4 class="panel-title">
+                                        ¿Hacen envíos a otros paises?
+                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="faq-cat-1-sub-2" class="panel-collapse collapse">
+                                <div class="panel-body faq-text">
+                                    Sí, pero el costo de envío es distinto.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default panel-faq">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-cat-1" href="#faq-cat-1-sub-3">
+                                    <h4 class="panel-title">
+                                        ¿Si les mando un correo me van a responder?
+                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="faq-cat-1-sub-3" class="panel-collapse collapse">
+                                <div class="panel-body faq-text">
+                                    Claro que sí, tu opinión nos es muy importante.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default panel-faq">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-cat-1" href="#faq-cat-1-sub-4">
+                                    <h4 class="panel-title">
+                                        ¿El precio del juego incluye gastos de envío?
+                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="faq-cat-1-sub-4" class="panel-collapse collapse">
+                                <div class="panel-body faq-text">
+                                    No, los costos de envío son aparte.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default panel-faq">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-cat-1" href="#faq-cat-1-sub-5">
+                                    <h4 class="panel-title">
+                                        ¿Cuántas personas pueden jugarlo?
+                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="faq-cat-1-sub-5" class="panel-collapse collapse">
+                                <div class="panel-body faq-text">
+                                    Recomendamos que haya minímo 4 jugadores para que el juego sea más disfrutable.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default panel-faq">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-cat-1" href="#faq-cat-1-sub-6">
+                                    <h4 class="panel-title">
+                                        ¿Cuántas capas de ropa me recomiendan usar para jugar este juego?
+                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="faq-cat-1-sub-6" class="panel-collapse collapse">
+                                <div class="panel-body faq-text">
+                                   Es una ecuación teniendo variables como tu mala suerte, más la cantidad de jugadores más la cantidad de alcohol que exista en la fiesta entre las personas que te quieran ver desnud@.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+            
+            
+        </div>
+    </section>
+<!-- /Seccion FAQ -->
+
+    
+    
+    <!-- Contact Section -->
+    
+    <!-- Footer -->
+    <footer class="text-center" id="contact">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="footer-col col-md-6">
+                        <h3>Ubicación</h3>
+                        <p> Calle:Zafiro #72 Colonia: Del Porvenir
+                            <br>Santiago de Querétaro, Querétaro. México</p>
+                    </div>
+                    <div class="footer-col col-md-6">
+                        <h3>Redes Sociales</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://www.facebook.com/DrunkenCards/?fref=ts" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+
+                  
+                        </ul>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+      
+
+    <!-- jQuery -->
+    <script src="../../server/static/js/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../../server/static/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="../../server/static/js/jqBootstrapValidation.js"></script>
+    <script src="../../server/static/js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="../../server/static/js/freelancer.min.js"></script>
+    
+
+    
+    
+    
+    <script>
+    $(document).ready(function() {
+    $('.collapse').on('show.bs.collapse', function() {
+        var id = $(this).attr('id');
+        $('a[href="#' + id + '"]').closest('.panel-heading').addClass('active-faq');
+        $('a[href="#' + id + '"] .panel-title span').html('<i class="glyphicon glyphicon-minus"></i>');
+    });
+    $('.collapse').on('hide.bs.collapse', function() {
+        var id = $(this).attr('id');
+        $('a[href="#' + id + '"]').closest('.panel-heading').removeClass('active-faq');
+        $('a[href="#' + id + '"] .panel-title span').html('<i class="glyphicon glyphicon-plus"></i>');
+    });
+});
+    </script>
+    
+    <script type="text/javascript">
+//<![CDATA[
+
+
+</script>
+    
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+        <script type="text/javascript" src="../../server/static/js/jquery.baraja.js"></script>
+        <script type="text/javascript">	
+			$(function() {
+
+				var $el = $( '#baraja-el' ),
+					baraja = $el.baraja();
+
+				// navigation
+				$( '#nav-prev' ).on( 'click', function( event ) {
+
+					baraja.previous();
+				
+				} );
+
+				$( '#nav-next' ).on( 'click', function( event ) {
+
+					baraja.next();
+				
+				} );
+
+				// simple fan
+				$( '#nav-fan' ).on( 'click', function( event ) {
+
+					baraja.fan( {
+						speed : 500,
+						easing : 'ease-out',
+						range : 90,
+						direction : 'right',
+						origin : { x : 25, y : 100 },
+						center : true
+					} );
+				
+				} );
+
+				$( '#nav-fan2' ).on( 'click', function( event ) {
+
+					baraja.fan( {
+						speed : 500,
+						easing : 'ease-out',
+						range : 90,
+						direction : 'left',
+						// note that the x origin changes (symmetric)
+						origin : { x : 75, y : 100 },
+						center : true
+					} );
+				
+				} );
+
+				// more realistic fan: without common origin (means the origin changes / increments by card )
+				$( '#nav-fan3' ).on( 'click', function( event ) {
+
+					baraja.fan( {
+						speed : 500,
+						easing : 'ease-out',
+						range : 90,
+						direction : 'right',
+						origin : { minX : 20, maxX : 80, y : 100 },
+						center : true,
+						translation : 60
+					} );
+				
+				} );
+
+				$( '#nav-fan4' ).on( 'click', function( event ) {
+
+					baraja.fan( {
+						speed : 500,
+						easing : 'ease-out',
+						range : 90,
+						direction : 'left',
+						origin : { minX : 20, maxX : 80, y : 100 },
+						center : true,
+						translation : 60
+					} );
+				
+				} );
+
+				// playing with different origins and ranges	
+				$( '#nav-fan5' ).on( 'click', function( event ) {
+
+					baraja.fan( {
+						speed : 500,
+						easing : 'ease-out',
+						range : 100,
+						direction : 'right',
+						origin : { x : 50, y : 200 },
+						center : true
+					} );
+				
+				} );
+
+				$( '#nav-fan6' ).on( 'click', function( event ) {
+
+					baraja.fan( {
+						speed : 500,
+						easing : 'ease-out',
+						range : 80,
+						direction : 'left',
+						origin : { x : 200, y : 50 },
+						center : true
+					} );
+				
+				} );
+
+				// center false, playing with translation
+				$( '#nav-fan7' ).on( 'click', function( event ) {
+
+					baraja.fan( {
+						speed : 500,
+						easing : 'ease-out',
+						range : 20,
+						direction : 'right',
+						origin : { x : 50, y : 200 },
+						center : false,
+						translation : 300
+					} );
+				
+				} );
+
+				$( '#nav-fan8' ).on( 'click', function( event ) {
+
+					baraja.fan( {
+						speed : 500,
+						easing : 'ease-out',
+						range : 20,
+						direction : 'left',
+						origin : { x : 50, y : 200 },
+						center : false,
+						translation : 300
+					} );
+				
+				} );
+
+				// using scatter : true
+				$( '#nav-fan9' ).on( 'click', function( event ) {
+
+					baraja.fan( {
+						speed : 500,
+						easing : 'ease-out',
+						range : 20,
+						direction : 'right',
+						origin : { x : 50, y : 200 },
+						center : false,
+						translation : 300,
+						scatter : true
+					} );
+				
+				} );
+
+				$( '#nav-fan10' ).on( 'click', function( event ) {
+
+					baraja.fan( {
+						speed : 500,
+						easing : 'ease-out',
+						range : 20,
+						direction : 'left',
+						origin : { x : 50, y : 200 },
+						center : false,
+						translation : 300,
+						scatter : true
+					} );
+				
+				} );
+
+				$( '#nav-fanOther1' ).on( 'click', function( event ) {
+
+					baraja.fan( {
+						speed : 500,
+						easing : 'ease-out',
+						range : 130,
+						direction : 'left',
+						origin : { x : 25, y : 100 },
+						center : false
+					} );
+				
+				} );
+
+				$( '#nav-fanOther2' ).on( 'click', function( event ) {
+
+					baraja.fan( {
+						speed : 500,
+						easing : 'ease-out',
+						range : 360,
+						direction : 'left',
+						origin : { x : 50, y : 90 },
+						center : false
+					} );
+				
+				} );
+
+				$( '#nav-fanOther3' ).on( 'click', function( event ) {
+
+					baraja.fan( {
+						speed : 500,
+						easing : 'ease-out',
+						range : 330,
+						direction : 'left',
+						origin : { x : 50, y : 100 },
+						center : true
+					} );
+				
+				} );
+
+				$( '#nav-fanOther4' ).on( 'click', function( event ) {
+
+					baraja.fan( {
+						speed : 500,
+						easing : 'ease-out',
+						range : 90,
+						direction : 'right',
+						origin : { minX : 20, maxX : 80, y : 100 },
+						center : true,
+						translation : 60,
+						scatter : true
+					} );
+				
+				} );
+
+				// close the baraja
+				$( '#close' ).on( 'click', function( event ) {
+
+					baraja.close();
+				
+				} );
+
+				// example of how to add more items
+				$( '#add' ).on( 'click', function( event ) {
+
+					if( $( this ).hasClass( 'disabled' ) ) {
+						return false;
+					}
+
+					$( this ).addClass( 'disabled' );
+
+					baraja.add( $('<li><img src="images/6.jpg" alt="image6"/><h4>Serenity</h4><p>Truffaut wes anderson hoodie 3 wolf moon labore, fugiat lomo iphone eiusmod vegan.</p></li><li><img src="images/7.jpg" alt="image7"/><h4>Dark Honor</h4><p>Chillwave mustache pinterest, marfa seitan umami id farm-to-table iphone.</p></li><li><img src="images/8.jpg" alt="image8"/><h4>Nested Happiness</h4><p>Minim post-ironic banksy american apparel iphone wayfarers.</p></li><li><img src="images/9.jpg" alt="image9"/><h4>Cherry Country</h4><p>Sint vinyl Austin street art odd future id trust fund, terry richardson cray.</p></li>') );
+				
+				} );
+
+			});
+		</script>
+</body>
+
+</html>

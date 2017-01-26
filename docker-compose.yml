@@ -1,0 +1,31 @@
+# Docker Compose
+version: '2.1'
+services:
+
+    templates:
+        container_name: 'awali-templates'
+        restart: always
+        ports: [ '3030' ]
+
+        build:
+            context: './templates'
+
+        networks:
+            - 'awali-inner'
+
+    server:
+        container_name: 'awali-server'
+        restart: always
+        ports: [ '80:80', '443:443' ]
+
+        build:
+            context: './server'
+            args:
+                use_tls_setup: true
+
+        networks:
+            - 'awali-inner'
+            - 'default'
+
+networks:
+    awali-inner: { driver: bridge }
